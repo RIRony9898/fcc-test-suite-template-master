@@ -223,4 +223,33 @@
     font-size: 2rem;
     font-weight: bold;
   }
+  #footer {
+    margin-top: 3rem;
+    background-color: #ddd;
+    padding: 2rem;
+  }
   
+  #footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #footer > ul > li {
+    padding: 0 1rem;
+    list-style: none;
+  }
+  
+  #footer > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.7rem;
+  }
+  
+  #footer > span {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    color: #444;
+  }
+    
