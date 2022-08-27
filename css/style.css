@@ -147,4 +147,14 @@
   .feature-text > p {
     font-size: 1.5rem;
   }
+
+  #how-it-works {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+  }
   
+  #video {
+    max-width: 560px;
+    width: 100%;
+  }
