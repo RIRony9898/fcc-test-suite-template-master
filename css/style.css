@@ -158,3 +158,69 @@
     max-width: 560px;
     width: 100%;
   }
+
+  #pricing {
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    gap: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  #tenor,
+  #bass,
+  #valve {
+    font-size: 2rem;
+  }
+  
+  .product-card > .level {
+    background-color: #ddd;
+    color: #000;
+    padding: 2rem 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .product-card > h2 {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .product-card > ol {
+    margin: 2rem 0;
+  }
+  
+  .product-card > ol > li {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    list-style: none;
+  }
+  
+  .product-card > button {
+    border: 0;
+    margin: 2rem 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+  }
+  
+  .font-small {
+    font-size: 1.7rem;
+  }
+  
+  .font-big {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
