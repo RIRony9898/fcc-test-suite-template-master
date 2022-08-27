@@ -101,3 +101,60 @@
     margin: 2rem 0;
     transition: all 0.5s;
   }
+
+  #features {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+  
+  .marg {
+    margin: 0 auto;
+  }
+  
+  .feature-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80rem;
+  }
+  
+  .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    height: 8rem;
+    width: 8rem;
+    color: #ff8c00;
+    margin: 3rem;
+  }
+  
+  .feature-text {
+    padding: 2rem;
+  }
+  
+  .feature-text > h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .feature-text > p {
+    font-size: 1.5rem;
+  }
+
+  #how-it-works {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #video {
+    max-width: 560px;
+    width: 100%;
+  }
