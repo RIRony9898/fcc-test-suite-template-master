@@ -1,0 +1,13 @@
+@media (max-width: 75em) {
+    html {
+      font-size: 56.25%;
+    }
+  
+    #pricing {
+      margin-top: 6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+  
